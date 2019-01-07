@@ -1,0 +1,43 @@
+JB is just another programmer who tries his best to solve some problems around him using Algorithms of Machine Learning.
+He collects data from each and every source and tries to bring out meaning out of it.
+The dataset that he plays around with usually have millions of data points and sometimes billions!
+To run algorithms on such large datasets he wants to build his own Computer.
+He decided to attach GPUs to the Computer.
+He finally estimates that the total cost needed to make the computer is in million dollars.
+Now comes the major problem.
+He is just a computer science undergraduate so the cost to make a powerful computer is high for him.
+JB decided to work on some projects to meet the cost.
+He sends email to thousands of managers of different companies about taking up a project.
+Next day his inbox is flooded with project description along with the stipend.
+He decided to take up multiple projects to collect more money.
+He decided that he would select a project in such a way that if a project is selected then the project before it in his inbox is rejected.
+This is a kind of rolling decision.
+
+Can you help him in selecting the projects in the manner described above?
+Also, try to maximize the total money he earns.
+
+Input
+The first line of input contains the number of test cases (t).
+Each test case starts with a number N denoting the number of projects.
+Next line will have N numbers (stipend each project offers)
+Projects are described in the order they are mailed.
+
+Output
+For each test case print “Case i: j” without quotes.
+i is the case number, starting with 1. j is the max money he makes.
+
+Constraints
+
+1 <= T <= 100
+0 <= N <= 10000
+0 <= Stipend of each project (in Vietnamese Dong) <= 10^12
+
+SAMPLE INPUT 
+2
+3
+222 40 45 
+2
+49 34
+SAMPLE OUTPUT 
+Case 1: 267
+Case 2: 49
