@@ -26,8 +26,7 @@ Output
 For each test case print “Case i: j” without quotes.
 i is the case number, starting with 1. j is the max money he makes.
 
-Constraints
-
+Constraints:
 1 <= T <= 100
 0 <= N <= 10000
 0 <= Stipend of each project (in Vietnamese Dong) <= 10^12
