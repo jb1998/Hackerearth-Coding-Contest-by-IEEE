@@ -1,0 +1,39 @@
+Software Programs are highly sensitive people.
+They generally don't like to be surrounded by people.
+In order to respect their emotions, the government decided to make separate rooms for these programmers.
+The government cleared large piece of land and made a lot of single-story rooms side by side for the programmers.
+Each room is given a room number.
+Some of these rooms are not properly constructed but some are ready(let N rooms be ready).
+
+There are P number of programmers who have to be shifted to these new rooms which are ready.
+These programmers try to stay away from people and in fact, they try to stay away from each other.
+The programmers take up rooms in such a way that distance between any two of them is maximum.
+You will be given the room number of available rooms and you need to allot these available rooms to the programs such that the minimum distance between any two programmers is as large as possible.
+
+Input:
+The first line contains a single integer (t) which denotes the number of test cases, then t test cases follow. 
+
+For each test case we have:
+
+Line 1: Two space-separated integers: N and P
+
+Line 2: N Lines follow that represent room numbers of the rooms that are ready.
+
+Output:
+For each test case output one integer that gives the answer.
+
+Constraints :
+1 <= T <=10
+2 <= N <= 1000000
+2 <= room numbers <= 1000000000
+1<= P <= N
+
+SAMPLE INPUT 
+1
+4 3
+499943400
+509903400
+9099990
+123432
+SAMPLE OUTPUT 
+9960000
