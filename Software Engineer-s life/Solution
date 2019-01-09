@@ -1,0 +1,63 @@
+* IMPORTANT: Multiple classes and nested static classes are supported */
+ 
+/*
+ * uncomment this if you want to read input.
+//imports for BufferedReader
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+ 
+//import for Scanner and other utility classes
+import java.util.*;
+*/
+ 
+// Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
+import java.util.*;
+class TestClass {
+  
+	
+	
+    public static long pow(long a,long b,long c)
+    {
+      if(b==0)
+        return 1;
+      if(b%2==0)
+        return pow((a*a)%c,b/2,c)%c;
+      else
+        return (a*(pow((a*a)%c,b/2,c)%c))%c;
+    }    
+  
+    public static long[] fact(int n)
+    {
+      long[] arr=new long[n+1];
+      long mod=(long)Math.pow(10,9)+7;
+      arr[0]=1;
+      for(int i=1;i<=n;i++)
+      {
+        arr[i]=(arr[i-1]*i)%mod;
+      }
+      return arr;
+    }
+  
+	public static long comp(int n,int k,long mod,long[] fact)
+    {
+      k=Math.min(k,n-k);
+      long ans=1;
+      ans=(fact[n]*pow((fact[k]*fact[n-k])%mod,mod-2,mod))%mod;
+      return ans;
+    }
+	public static void main(String[] args) {
+		// Write your code here
+      Scanner s=new Scanner(System.in); 
+      int t=s.nextInt();
+      long[] arr=fact(1000000);
+      while(t-->0)
+      {
+        int n=s.nextInt(),k=s.nextInt();
+        long ans=1,mod=(long)Math.pow(10,9)+7;
+        ans=comp(n,k,mod,arr);
+        ans=(ans*pow(2,k,mod))%mod;
+        System.out.println(ans);
+      }
+	}
+ 
+}
