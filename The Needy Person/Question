@@ -1,0 +1,43 @@
+Paras is good at heart.
+He is saying money to help a needy person.
+The need person lives in a small room which is located at the corner of a big single story house.
+The entrance door to the house is present in another corner diagonally opposite to the needy person's room.
+
+The big house has a lot of rooms which are joined to one another.
+In each room there are children.
+The only way to reach a needy person is to go through a path from these rooms.
+
+Since Paras is good at heart so he wants to give away 1 candy to each child who he meets while going to the needy person.
+He has a fixed amount of money.
+If he meets more children then he had to take more candies so that each child gets one.
+But that will reduce the money with Paras and eventually he would not be able to help the needy person much.
+Let's say Paras enters the house then he can only move down, right, and diagonally down considering the top view of the single-story building.
+
+You are a good programmer.
+Paras wants your help.
+Look for a path in such a way that he meets minimum children.
+In this way, Paras will buy fewer candies and he can help the needy person more.
+Please tell Paras how many candies should he buy. 
+
+Input format :
+Two integers, a and b where (aXb) represents the number of rooms in the house.
+Next a lines: b integers of each row of a (separated by space) which represents children.
+
+Output format :
+A single integer denoting the number of candies Paras should buy
+
+Constraints :
+
+1 <= a, b <= 99
+
+1<= Number of children in each room <= 50000
+
+SAMPLE INPUT 
+5 4
+3 4 1 2
+2 1 8 9
+4 73 8 1
+27 16 89 9
+22 17 82 9
+SAMPLE OUTPUT 
+30
