@@ -1,0 +1,26 @@
+JB is a software developer.
+He likes to spend time programming on his laptop.
+He can program continuously for hours but he needs energy drinks to avoid sleep.
+He is an interesting person. He finds that there is a strong relationship between the energy drinks and the number of lines of code he writes.(Strange isn't it)
+He has energy drinks and bottles of different size.
+He noticed that he can write at least 2^jXk(where j is the number of bottles of energy drink he has already consumed and k is the amount of energy drink present in the (j+1)th bottle) lines of code.
+
+Given the amount in ml for each energy drink bottle, you need to find the minimum number of lines of code JB will write.
+JB can take energy drink bottle in any order.
+
+Input
+The first line contains an integer, n denoting the number of bottles of energy drinks. 
+The second line contains n space-separated integers describing the respective amount of energy drink in ml present in each bottle.
+
+Output
+Print a minimum lines of code JB can write.
+
+Constraints
+1 ≤ n ≤ 40(Yes, JB can drink up to 40 bottles of energy drink)
+1 ≤ k ≤ 1000
+
+SAMPLE INPUT 
+2
+20 19
+SAMPLE OUTPUT 
+58
