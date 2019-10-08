@@ -1,0 +1,50 @@
+Pizza Is a dish of Italian origin, consisting of a flat round base of dough baked with some toppings.
+It is basically Circular in shape. It comes in 3 sizes-
+Small, Medium, and Large Pizza.
+
+Abhinav is crazy for Pizzas.
+Small Pizza has an area of 'S' units^2
+Medium Pizza has an area of 'M' units^2
+Large Pizza has an area of 'L' units^2
+
+Cost of Small, medium and Large Pizza is 'CS' , 'CM', and 'CL' respectively.
+Abhinav wants atleast 'X' units^2 of pizza .
+What is the minimum amount of Rs. needed so that Abhinav can buy atleast X units square of Pizza?
+If more than 1 arrangement is possibleChoose that one which requires Least Money. 
+
+Two arrangements are said to be different if They have different quantities of Small , medium , or large pizzas!
+
+Input:
+First line contains the number of test cases-T
+The next line contains 6 integers- X, S,M , L , CS, CM, CL
+
+Output:
+Output one integer the minimum amount of Rs. needed.
+
+Constraints:
+1<=T<=100
+1<=X<=500
+1<=S< M< L<=100
+1<=CS< CM<=1000
+
+Example:
+Input:
+1
+16 3 6 9 50 150 300
+Output:
+300
+ 
+
+Explanation:
+
+We want atleast 16 units^2 of Pizza
+
+1S 1M 1L area= 3+6+9=18sq units , Cost=500
+
+6S  area=18 sq units, Cost=300
+
+2L area=18 sq units, Cost=600
+
+etc.
+
+of all the Arrangements, Minimum Cost is Rs. 300.
