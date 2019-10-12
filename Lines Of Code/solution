@@ -12,7 +12,7 @@ import java.util.*;
  
 // Warning: Printing unwanted or ill-formatted data to output will cause the test cases to fail
 import java.util.*;
-class TestClass {
+public class TestClass {
  	 public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n=sc.nextInt();
