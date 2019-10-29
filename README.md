@@ -3,6 +3,10 @@
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/jb1998/Coding-Contest-by-IEEE)  &nbsp;&nbsp;
 
+[![GitHub stars](https://img.shields.io/github/stars/jb1998/Coding-Contest-by-IEEE.svg?style=social&label=Star)](https://github.com/jb1998/Coding-Contest-by-IEEE)
+
+![GitHub followers](https://img.shields.io/github/followers/jb1998.svg?style=social&label=Follow)
+
 
 
 ## Getting Started :heavy_check_mark:
