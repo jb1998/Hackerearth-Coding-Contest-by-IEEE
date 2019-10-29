@@ -1,4 +1,4 @@
-# Competitive coding context 💻 on Hackerearth :fire:
+# Competitive coding contest 💻 on Hackerearth :fire:
 -  [Competitive coding contest](http://hck.re/c2028)
 
 [![Open Source Love](https://badges.frapsoft.com/os/v2/open-source.svg?v=102)](https://github.com/jb1998/Coding-Contest-by-IEEE)  &nbsp;&nbsp;
